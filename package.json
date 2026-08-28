@@ -1,0 +1,14 @@
+{
+  "name": "azure-function-project",
+  "version": "1.0.0",
+  "description": "Azure Function App project for Web App and Key Vault integration",
+  "main": "src/functions/getMessage.js",
+  "scripts": {
+    "start": "func start"
+  },
+  "dependencies": {
+    "@azure/functions": "^4.7.2",
+    "@azure/identity": "^4.11.1",
+    "@azure/keyvault-secrets": "^4.10.0"
+  }
+}
