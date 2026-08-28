@@ -22,7 +22,10 @@ app.http("getMessage", {
       return {
         status: 200,
         jsonBody: {
-          message: "Key Vault connection successful",
+          message: "Taxi service API working",
+    service: "TM Lowcarbon Service AB",
+    city: "Stockholm",
+    available: true,
           secretLoaded: true
         }
       };
